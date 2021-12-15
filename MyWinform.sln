@@ -7,6 +7,40 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWinform", "MyWinform\MyWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseTable", "CourseTable\CourseTable.csproj", "{A6F1555B-19EE-4D34-B9BB-BB0E01FFF34C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewSamples", "DataGridViewSamples\DataGridViewSamples.csproj", "{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeCell", "DataGridView单元格合并和二维表头\WindowsApplication15\MergeCell.csproj", "{B58C7AA2-41CE-4BC0-8307-C0FBB375BE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifAnimationInDataGrid", "GifAnimationInDataGrid\GifAnimationInDataGrid\GifAnimationInDataGrid.csproj", "{237B878A-9EF2-416A-A457-0C8AB3B6ABFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiColHeaderDgvTest", "myMultiColHeaderDgv\MultiColHeaderDgvTest\MultiColHeaderDgvTest.csproj", "{113661DD-4D23-4E03-B6AB-098B95A9E4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMultiColHeaderDgv", "myMultiColHeaderDgv\myMultiColHeaderDgv\myMultiColHeaderDgv.csproj", "{C705EDA6-D386-4AB0-87AA-7F10405BE989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataGridViewRowStyle", "TestDataGridViewRowStyle\TestDataGridViewRowStyle\TestDataGridViewRowStyle.csproj", "{FF8C89DF-821C-48F7-AF2E-4E99B3AD5A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Virtual Mode with Caching", "MS DataGridView Samples\Advanced Virtual Mode with Caching\CS\Advanced Virtual Mode with Caching\Advanced Virtual Mode with Caching.csproj", "{34610E73-E178-462E-8FB4-C454CC8C78F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Row Painting", "MS DataGridView Samples\Custom Row Painting\CS\Custom Row Painting\Custom Row Painting.csproj", "{BD185BEA-730A-4870-9C66-60D32163240E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridView", "MS DataGridView Samples\DataGridView Overview\CS\DataGridView\DataGridView.csproj", "{E1D4BC73-2280-48E5-B205-770B4D0DDF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePicker Custom Cell", "MS DataGridView Samples\DateTimePicker Custom Cell\CS\DateTimePicker Custom Cell\DateTimePicker Custom Cell.csproj", "{2259CC45-90FC-41F3-9A04-10B1AFB8CEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disabled Button Cell", "MS DataGridView Samples\Disabled Button Cell\CS\Disabled Button Cell\Disabled Button Cell.csproj", "{DF1CE7BE-F6BE-4262-8B65-F8512C4D0A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewCustomColumn", "MS DataGridView Samples\MaskedTextBox Custom Cell\CS\DataGridViewCustomColumn\DataGridViewCustomColumn.csproj", "{C1D9DC7E-61B4-4C0B-9E3C-DD934EA97192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewCustomColumnTest", "MS DataGridView Samples\MaskedTextBox Custom Cell\CS\DataGridViewCustomColumnTest\DataGridViewCustomColumnTest.csproj", "{56FD99DD-F03E-4D4C-A048-FE719732927B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Sorting Using the IComparer Interface", "MS DataGridView Samples\Sorting\Custom Sorting Using the IComparer Interface\CS\Custom Sorting Using the IComparer Interface\Custom Sorting Using the IComparer Interface.csproj", "{9E520BC0-F23D-437F-A636-9586B0F9E45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Sorting Using the SortCompare Event", "MS DataGridView Samples\Sorting\Custom Sorting Using the SortCompare Event\CS\Custom Sorting Using the SortCompare Event\Custom Sorting Using the SortCompare Event.csproj", "{3D78A75A-BE0A-43E9-9240-2F8336DBC349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programmatic Sorting", "MS DataGridView Samples\Sorting\Programmatic Sorting\CS\Programmatic Sorting\Programmatic Sorting.csproj", "{2B1F1185-E80F-46A3-A2E5-C2DEB9A0402F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual Mode", "MS DataGridView Samples\Virtual Mode\CS\Virtual Mode\Virtual Mode.csproj", "{D267B213-65C8-402E-A970-E7AA0376724C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +55,74 @@ Global
 		{A6F1555B-19EE-4D34-B9BB-BB0E01FFF34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F1555B-19EE-4D34-B9BB-BB0E01FFF34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F1555B-19EE-4D34-B9BB-BB0E01FFF34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58C7AA2-41CE-4BC0-8307-C0FBB375BE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58C7AA2-41CE-4BC0-8307-C0FBB375BE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58C7AA2-41CE-4BC0-8307-C0FBB375BE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58C7AA2-41CE-4BC0-8307-C0FBB375BE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237B878A-9EF2-416A-A457-0C8AB3B6ABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237B878A-9EF2-416A-A457-0C8AB3B6ABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237B878A-9EF2-416A-A457-0C8AB3B6ABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237B878A-9EF2-416A-A457-0C8AB3B6ABFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113661DD-4D23-4E03-B6AB-098B95A9E4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113661DD-4D23-4E03-B6AB-098B95A9E4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113661DD-4D23-4E03-B6AB-098B95A9E4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113661DD-4D23-4E03-B6AB-098B95A9E4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C705EDA6-D386-4AB0-87AA-7F10405BE989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C705EDA6-D386-4AB0-87AA-7F10405BE989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C705EDA6-D386-4AB0-87AA-7F10405BE989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C705EDA6-D386-4AB0-87AA-7F10405BE989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF8C89DF-821C-48F7-AF2E-4E99B3AD5A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF8C89DF-821C-48F7-AF2E-4E99B3AD5A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF8C89DF-821C-48F7-AF2E-4E99B3AD5A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF8C89DF-821C-48F7-AF2E-4E99B3AD5A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34610E73-E178-462E-8FB4-C454CC8C78F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34610E73-E178-462E-8FB4-C454CC8C78F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34610E73-E178-462E-8FB4-C454CC8C78F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34610E73-E178-462E-8FB4-C454CC8C78F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD185BEA-730A-4870-9C66-60D32163240E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD185BEA-730A-4870-9C66-60D32163240E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD185BEA-730A-4870-9C66-60D32163240E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD185BEA-730A-4870-9C66-60D32163240E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D4BC73-2280-48E5-B205-770B4D0DDF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D4BC73-2280-48E5-B205-770B4D0DDF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D4BC73-2280-48E5-B205-770B4D0DDF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D4BC73-2280-48E5-B205-770B4D0DDF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2259CC45-90FC-41F3-9A04-10B1AFB8CEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2259CC45-90FC-41F3-9A04-10B1AFB8CEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2259CC45-90FC-41F3-9A04-10B1AFB8CEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2259CC45-90FC-41F3-9A04-10B1AFB8CEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1CE7BE-F6BE-4262-8B65-F8512C4D0A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1CE7BE-F6BE-4262-8B65-F8512C4D0A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1CE7BE-F6BE-4262-8B65-F8512C4D0A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1CE7BE-F6BE-4262-8B65-F8512C4D0A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D9DC7E-61B4-4C0B-9E3C-DD934EA97192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D9DC7E-61B4-4C0B-9E3C-DD934EA97192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D9DC7E-61B4-4C0B-9E3C-DD934EA97192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D9DC7E-61B4-4C0B-9E3C-DD934EA97192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56FD99DD-F03E-4D4C-A048-FE719732927B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FD99DD-F03E-4D4C-A048-FE719732927B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FD99DD-F03E-4D4C-A048-FE719732927B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FD99DD-F03E-4D4C-A048-FE719732927B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E520BC0-F23D-437F-A636-9586B0F9E45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E520BC0-F23D-437F-A636-9586B0F9E45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E520BC0-F23D-437F-A636-9586B0F9E45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E520BC0-F23D-437F-A636-9586B0F9E45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D78A75A-BE0A-43E9-9240-2F8336DBC349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D78A75A-BE0A-43E9-9240-2F8336DBC349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D78A75A-BE0A-43E9-9240-2F8336DBC349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D78A75A-BE0A-43E9-9240-2F8336DBC349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1F1185-E80F-46A3-A2E5-C2DEB9A0402F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1F1185-E80F-46A3-A2E5-C2DEB9A0402F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1F1185-E80F-46A3-A2E5-C2DEB9A0402F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1F1185-E80F-46A3-A2E5-C2DEB9A0402F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D267B213-65C8-402E-A970-E7AA0376724C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D267B213-65C8-402E-A970-E7AA0376724C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D267B213-65C8-402E-A970-E7AA0376724C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D267B213-65C8-402E-A970-E7AA0376724C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

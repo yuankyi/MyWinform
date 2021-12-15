@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DF2851A-C87F-4D0B-B0C1-8CBB45905BEC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataGridViewSamples</RootNamespace>
+    <AssemblyName>DataGridViewSamples</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArchitectureRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchitectureRow.Designer.cs">
+      <DependentUpon>ArchitectureRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpAboutMe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpAboutMe.Designer.cs">
+      <DependentUpon>HelpAboutMe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewVirtualMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewVirtualMode.Designer.cs">
+      <DependentUpon>OverviewVirtualMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnCellComboxBoxColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnCellComboxBoxColumn.Designer.cs">
+      <DependentUpon>ColumnCellComboxBoxColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnCellTextBoxColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnCellTextBoxColumn.Designer.cs">
+      <DependentUpon>ColumnCellTextBoxColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Component\CommonUtil.cs" />
+    <Compile Include="Component\ConfigReader.cs" />
+    <Compile Include="Custom\DataGridViewDisableButtonColumn.cs" />
+    <Compile Include="Custom\DataGridViewTextAndImageColumn.cs" />
+    <Compile Include="Component\DataGridViewUtility.cs" />
+    <Compile Include="Component\DBFactory.cs" />
+    <Compile Include="Component\DBHelper.cs" />
+    <Compile Include="ArchitectureCell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchitectureCell.Designer.cs">
+      <DependentUpon>ArchitectureCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchitectureColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArchitectureColumn.Designer.cs">
+      <DependentUpon>ArchitectureColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataAdapter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataAdapter.Designer.cs">
+      <DependentUpon>ManipulateDataAdapter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataComboBoxColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataComboBoxColumn.Designer.cs">
+      <DependentUpon>ManipulateDataComboBoxColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataCustomErrorIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataCustomErrorIcon.Designer.cs">
+      <DependentUpon>ManipulateDataCustomErrorIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataMasterDetail.Designer.cs">
+      <DependentUpon>ManipulateDataMasterDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataUnboundMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataUnboundMode.Designer.cs">
+      <DependentUpon>ManipulateDataUnboundMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManipulateDataValidating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManipulateDataValidating.Designer.cs">
+      <DependentUpon>ManipulateDataValidating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewAutosize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewAutosize.Designer.cs">
+      <DependentUpon>OverviewAutosize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewBorderStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewBorderStyle.Designer.cs">
+      <DependentUpon>OverviewBorderStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewClipboard.Designer.cs">
+      <DependentUpon>OverviewClipboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewCustomPainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewCustomPainting.Designer.cs">
+      <DependentUpon>OverviewCustomPainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewEnterEditMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewEnterEditMode.Designer.cs">
+      <DependentUpon>OverviewEnterEditMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewFrozenColumnOrRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewFrozenColumnOrRow.Designer.cs">
+      <DependentUpon>OverviewFrozenColumnOrRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewScrolling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewScrolling.Designer.cs">
+      <DependentUpon>OverviewScrolling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewSelection.Designer.cs">
+      <DependentUpon>OverviewSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OverviewStyleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverviewStyleForm.Designer.cs">
+      <DependentUpon>OverviewStyleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BestPracticePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestPracticePerformance.Designer.cs">
+      <DependentUpon>BestPracticePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ArchitectureRow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArchitectureRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchitectureCell.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArchitectureCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArchitectureColumn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ArchitectureColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpAboutMe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HelpAboutMe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewVirtualMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewVirtualMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnCellComboxBoxColumn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnCellComboxBoxColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColumnCellTextBoxColumn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnCellTextBoxColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataAdapter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataAdapter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataComboBoxColumn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataComboBoxColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataCustomErrorIcon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataCustomErrorIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataMasterDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataUnboundMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataUnboundMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManipulateDataValidating.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ManipulateDataValidating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewAutosize.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewAutosize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewBorderStyle.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewBorderStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewClipboard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewClipboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewCustomPainting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewCustomPainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewEnterEditMode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewEnterEditMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewFrozenColumnOrRow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewFrozenColumnOrRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewScrolling.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewScrolling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewSelection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverviewStyleForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OverviewStyleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BestPracticePerformance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BestPracticePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+    <Content Include="ReadmeTechPoints.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Architecture\" />
+    <Folder Include="Overview\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
